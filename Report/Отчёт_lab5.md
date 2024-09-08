@@ -47,3 +47,15 @@ git commit -m "Added conclusion to example.txt"
 ```bash
 git push origin feature-branch
 ```
+6) Теперь занимаюсь сливанием изменений. Переключаюсь обратно на основную ветку:
+```bash
+git checkout main
+```
+Далее выполняю слияние ветки feature-branch в основную ветку:
+```bash
+git merge feature-branch
+```
+Отправляю объединенные изменения на GitHub:
+```bash
+git push origin main
+```
