@@ -2,6 +2,8 @@
 **Введение**
 
 1) В первую очередь создаю репозиторий на гитхабе: вхожу в свою учетную запись, нажимаю на кнопку New Repository, ввожу имя репозитория - git-practice, делаю его публичным. Затем копирую его URL.
+![image](https://github.com/user-attachments/assets/7cd220c1-1d33-4461-ad64-f357389e0ce3)
+![image](https://github.com/user-attachments/assets/fffb4837-1e71-45f5-99e5-16d496badae2)
 2) Теперь клонирую репозиторий. Ввожу команду:
 ```bash
 git clone git@github.com:a-orlova/git-practice.git
@@ -59,3 +61,7 @@ git merge feature-branch
 ```bash
 git push origin main
 ```
+7) Проверяю, что файл изменен верно, и все ветки слиты. Все верно!
+![image](https://github.com/user-attachments/assets/e8c73438-c427-4e54-9a0f-40a16381c788)
+![image](https://github.com/user-attachments/assets/587728c4-2560-4dd6-824d-8a9001849816)
+
