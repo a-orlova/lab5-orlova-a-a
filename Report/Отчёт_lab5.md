@@ -68,10 +68,29 @@ git push origin main
 **Работа с ветками**
 1) Создаю новый текстовый файл NewFile.md прямо на сайте, добавляю туда нужный текст.
 ![image](https://github.com/user-attachments/assets/f9c9bab5-ce2b-4121-96c5-cf15ec46e102)
+![image](https://github.com/user-attachments/assets/30ae1bbb-3ce0-43b8-a38f-5c9b360887ee)
 
-3) В терминале создаю и переключаюсь на новую ветку feature-login:
+2) В терминале создаю и переключаюсь на новую ветку feature-login:
 ```bash
 git checkout -b feature-login
 ```
-3) 
+3) Вношу изменения в файл с помощью echo:
+```bash
+echo " " >> NewFile.md
+echo "## Глава 3: Вход в систему" >> NewFile.md
+echo "Раздел по новой функциональности входа в систему." >> NewFile.md
+```
+4) Добавляю файл для отслеживания изменений:
+```bash
+git add README.md
+```
+Создаю коммит с сообщением:
+```bash
+git commit -m "Добавлена глава 3: Вход в систему"
+```
+Отправляю изменения в ветку feature-login на GitHub:
+```bash
+git push origin feature-login
+```
 
+**Работа с удаленным репозиторием**
