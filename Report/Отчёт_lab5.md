@@ -51,7 +51,7 @@ git commit -m "Updated example.txt with new text"
 ```bash
 git push origin feature-branch
 ```
-git ![image](https://github.com/user-attachments/assets/7a1e9452-2a0a-47ca-9367-5ce25f9f42d2)
+![image](https://github.com/user-attachments/assets/7a1e9452-2a0a-47ca-9367-5ce25f9f42d2)
 
 6) Теперь занимаюсь сливанием изменений. Переключаюсь обратно на основную ветку:
 ```bash
