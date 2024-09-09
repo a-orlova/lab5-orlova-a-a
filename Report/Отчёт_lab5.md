@@ -92,5 +92,7 @@ git commit -m "Добавлена глава 3: Вход в систему"
 ```bash
 git push origin feature-login
 ```
+![image](https://github.com/user-attachments/assets/d66be7fb-7141-4547-9a8d-cb78a8ccc5aa)
 
 **Работа с удаленным репозиторием**
+1) 
