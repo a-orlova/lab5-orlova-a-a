@@ -71,20 +71,19 @@ git push origin main
 
 
 **Работа с ветками**
-1) Создаю новый текстовый файл NewFile.md прямо на сайте, добавляю туда нужный текст.
-![image](https://github.com/user-attachments/assets/f9c9bab5-ce2b-4121-96c5-cf15ec46e102)
-![image](https://github.com/user-attachments/assets/30ae1bbb-3ce0-43b8-a38f-5c9b360887ee)
-![image](https://github.com/user-attachments/assets/f8cdf564-7678-43d7-8a2e-b4c766c52b6d)
-
+1) Создаю новый текстовый файл README.md в терминале с помощью echo:
+```bash
+echo "# Название книги\n\n## Глава 1: Введение\nЗдесь будет введение в тему книги.\n\n## Глава 2: Основы Git\nОсновные понятия и команды Git." > README.md
+```
 2) В терминале создаю и переключаюсь на новую ветку feature-login:
 ```bash
 git checkout -b feature-login
 ```
 3) Вношу изменения в файл с помощью echo:
 ```bash
-echo " " >> NewFile.md
-echo "## Глава 3: Вход в систему" >> NewFile.md
-echo "Раздел по новой функциональности входа в систему." >> NewFile.md
+echo " " >> README.md
+echo "## Глава 3: Вход в систему" >> README.md
+echo "Раздел по новой функциональности входа в систему." >> README.md
 ```
 4) Добавляю файл для отслеживания изменений:
 ```bash
@@ -98,7 +97,10 @@ git commit -m "Добавлена глава 3: Вход в систему"
 ```bash
 git push origin feature-login
 ```
-![image](https://github.com/user-attachments/assets/d66be7fb-7141-4547-9a8d-cb78a8ccc5aa)
+![image](https://github.com/user-attachments/assets/f73b6457-5d6a-4683-a8dc-19cc4551561a)
+
 
 **Работа с удаленным репозиторием**
-1) 
+1) ![image](https://github.com/user-attachments/assets/eff4deab-4693-4402-92ca-71bd2df48252) изменения в мэйн
+![image](https://github.com/user-attachments/assets/2887a61e-464d-4c09-a1bf-3cfa72de5f78)  конфликты
+
