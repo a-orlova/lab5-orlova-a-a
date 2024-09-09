@@ -67,12 +67,14 @@ git push origin main
 ```
 7) Проверяю, что файл изменен верно, и все ветки слиты. Все верно!
 ![image](https://github.com/user-attachments/assets/d015ed15-c4d6-40da-a6b6-d9d027f856e9)
+![image](https://github.com/user-attachments/assets/c6d2acd1-e20c-471b-9efc-6fd9628b3ceb)
 
 
 **Работа с ветками**
 1) Создаю новый текстовый файл NewFile.md прямо на сайте, добавляю туда нужный текст.
 ![image](https://github.com/user-attachments/assets/f9c9bab5-ce2b-4121-96c5-cf15ec46e102)
 ![image](https://github.com/user-attachments/assets/30ae1bbb-3ce0-43b8-a38f-5c9b360887ee)
+![image](https://github.com/user-attachments/assets/f8cdf564-7678-43d7-8a2e-b4c766c52b6d)
 
 2) В терминале создаю и переключаюсь на новую ветку feature-login:
 ```bash
