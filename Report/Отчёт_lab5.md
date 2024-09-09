@@ -12,9 +12,9 @@ git clone git@github.com:a-orlova/git-practice.git
 ```bash
 cd git-practice
 ```
-3) Добавляю внутри репозитория текстовый файл example.txt и сразу добавляю туда текст - структуру книги с помощью команды echo: 
+3) Добавляю внутри репозитория текстовый файл example.txt и сразу добавляю туда текст-пример с помощью команды echo: 
 ```bash
-echo "Глава 1: Введение\nГлава 2: Основная часть" > example.txt
+echo "Это текст для примера" > example.txt
 ```
 Добавляю файл в те, которые будут отслеживаться с помощью:
 ```bash
@@ -28,6 +28,8 @@ git commit -m "File added example.txt"
 ```bash
 git push origin main
 ```
+![image](https://github.com/user-attachments/assets/d2122ed1-4e2e-417d-9013-2495f3ca503f)
+
 4) Создаю новую ветку и переключаюсь на неё:
 ```bash
 git branch feature-branch
@@ -35,7 +37,7 @@ git checkout feature-branch
 ```
 5) Редактирую файл example.txt, добавив новый текст с помощью команды echo:
 ```bash
-echo "Глава 3: Заключение" >> example.txt
+echo "Изменение файла" >> example.txt
 ```
 Сохраняю файл и добавляю его в гит:
 ```bash
@@ -43,12 +45,14 @@ git add example.txt
 ```
 Делаю новый коммит:
 ```bash
-git commit -m "Added conclusion to example.txt"
+git commit -m "Updated example.txt with new text"
 ```
 Отправляю изменения:
 ```bash
 git push origin feature-branch
 ```
+git ![image](https://github.com/user-attachments/assets/7a1e9452-2a0a-47ca-9367-5ce25f9f42d2)
+
 6) Теперь занимаюсь сливанием изменений. Переключаюсь обратно на основную ветку:
 ```bash
 git checkout main
@@ -62,8 +66,8 @@ git merge feature-branch
 git push origin main
 ```
 7) Проверяю, что файл изменен верно, и все ветки слиты. Все верно!
-![image](https://github.com/user-attachments/assets/e8c73438-c427-4e54-9a0f-40a16381c788)
-![image](https://github.com/user-attachments/assets/587728c4-2560-4dd6-824d-8a9001849816)
+![image](https://github.com/user-attachments/assets/d015ed15-c4d6-40da-a6b6-d9d027f856e9)
+
 
 **Работа с ветками**
 1) Создаю новый текстовый файл NewFile.md прямо на сайте, добавляю туда нужный текст.
