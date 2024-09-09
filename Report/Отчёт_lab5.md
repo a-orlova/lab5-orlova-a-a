@@ -68,7 +68,8 @@ git push origin main
 **Работа с ветками**
 1) Создаю новый текстовый файл NewFile.md прямо на сайте, добавляю туда нужный текст.
 ![image](https://github.com/user-attachments/assets/f9c9bab5-ce2b-4121-96c5-cf15ec46e102)
-2) В терминале создаю и переключаюсь на новую ветку feature-login:
+
+3) В терминале создаю и переключаюсь на новую ветку feature-login:
 ```bash
 git checkout -b feature-login
 ```
