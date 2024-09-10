@@ -183,5 +183,9 @@ exit 0
 3) Открываю файл task_manager.py и через nano добавляю туда код:
 
 ![image](https://github.com/user-attachments/assets/b73f8021-2d59-4457-8df1-95cbe0985a4a)
+![image](https://github.com/user-attachments/assets/21abbb36-368b-41db-86ce-f58719985ea0)
 
-4) 
+4) Теперь занимаюсь созданием рализа на ветке develop
+
+![image](https://github.com/user-attachments/assets/c4c62713-9dbc-49bd-b210-46199fa31bec)
+
