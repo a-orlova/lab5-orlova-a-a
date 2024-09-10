@@ -142,6 +142,29 @@ git merge feature-login
 
 ![image](https://github.com/user-attachments/assets/0de2ae71-98d5-4943-b5cb-16aa302c75a1)
 
-Коммичу разрешение конфликта и отправьте изменения на гитхаб, как и раньше:
+Коммичу разрешение конфликта и отправляю изменения на гитхаб, как и раньше:
 
 ![image](https://github.com/user-attachments/assets/fb4e22ae-8782-40bb-a649-dbab327b5247)
+
+Проверяю результат на сайте - все верно!
+
+![image](https://github.com/user-attachments/assets/103a4718-0699-4716-8dfd-df7d0142cffa)
+
+**Автоматизация проверки формата файлов при коммите**
+Создаю bash-скрипт, который будет выполнять проверку формата .txt файлов. Добавляю его в папку .git/hooks и называю его pre-commit. 
+```bash
+#!/bin/bash
+for file in $(git diff --cached --name-only); do
+    if [[ ! $file == *.txt ]]; then
+        echo "Файл $file не является .txt файлом"
+        exit 1
+    fi
+done
+
+
+exit 0
+```
+![image](https://github.com/user-attachments/assets/d845cf4a-3c75-4262-8273-c4fa0239bfb8)
+![image](https://github.com/user-attachments/assets/4dfb7f1a-bab5-4baf-8d04-72da70791670)
+
+**Использование Git Flow в проекте**
