@@ -120,7 +120,8 @@ git add README.md
 git commit -m "Добавлен раздел о магии конфликтов"
 git push origin feature-login
 ```
-![image](https://github.com/user-attachments/assets/2a953932-f23c-4556-a737-a77bdb34e561)
+![image](https://github.com/user-attachments/assets/2a953932-f23c-4556-a737-a77![image](https://github.com/user-attachments/assets/212d450c-c708-49ac-a1fe-b18b944cd96e)
+bdb34e561)
 
 **Разрешение конфликта**
 
@@ -132,3 +133,15 @@ git merge feature-login
 ```
 ![image](https://github.com/user-attachments/assets/983a766c-5662-40bb-9aa0-7de57858b890)
 
+Я открываю файл README.md и, удаляя лишнее, разрешаю конфликт.
+Файл до изменений:
+
+![image](https://github.com/user-attachments/assets/c6eb0e2f-ac4e-47e3-9fcf-6b983d3d0424)
+
+Файл после изменений:
+
+![image](https://github.com/user-attachments/assets/0de2ae71-98d5-4943-b5cb-16aa302c75a1)
+
+Коммичу разрешение конфликта и отправьте изменения на гитхаб, как и раньше:
+
+![image](https://github.com/user-attachments/assets/fb4e22ae-8782-40bb-a649-dbab327b5247)
