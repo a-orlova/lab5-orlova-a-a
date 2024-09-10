@@ -185,7 +185,13 @@ exit 0
 ![image](https://github.com/user-attachments/assets/b73f8021-2d59-4457-8df1-95cbe0985a4a)
 ![image](https://github.com/user-attachments/assets/21abbb36-368b-41db-86ce-f58719985ea0)
 
-4) Теперь занимаюсь созданием рализа на ветке develop
+4) Теперь занимаюсь созданием рализа на ветке develop: вношу изменения, связанные с ним, в файле version.txt
+Стоит заметить, что скрипт, написанный ранее, работает, так как ошибки на формат файла не вылезло
 
 ![image](https://github.com/user-attachments/assets/c4c62713-9dbc-49bd-b210-46199fa31bec)
+![image](https://github.com/user-attachments/assets/7ca1a6a5-3df3-483c-b66d-5f3110d9b441)
+![image](https://github.com/user-attachments/assets/0777b658-c855-4315-ada7-e57bf1a50fdc)
 
+5) Завершаю релиз, критической ошибки не выявлено, завершаю работу и отправляю на удаленный репозиторий.
+
+![image](https://github.com/user-attachments/assets/eeba0b8e-dc8a-4628-89dd-1267ddbab231)
