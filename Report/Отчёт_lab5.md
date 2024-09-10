@@ -100,7 +100,7 @@ git push origin feature-login
 ![image](https://github.com/user-attachments/assets/9de4b96f-cc52-4b07-ae35-0ca0ec414490)
 
 **Работа с удаленным репозиторием**
-Переключаюсь на основной ветку, далее с помощью nano вношу изменения - добавляю название и меняю введение книги, коммит изменения и отправка всего на гитхаб.
+Переключаюсь на основную ветку, далее с помощью nano вношу изменения - добавляю название и меняю введение книги, коммит изменения и отправка всего на гитхаб.
 ```bash
 git checkout main
 nano README.md
@@ -110,4 +110,22 @@ git push origin main
 ```
 ![image](https://github.com/user-attachments/assets/228ed71c-ff39-4328-9781-f5b40719b79a)
 
+**Моделирование конфликта**
+Возвращаюсь в другую ветку и, подобно прошлым инструкциям, вношу там изменения в главе 2 - добавляю информацию о магии разрешения конфликтов
+```bash
+git checkout feature-login
+git add README.md
+git commit -m "Добавлен раздел о магии конфликтов"
+git push origin feature-login
+```
+![image](https://github.com/user-attachments/assets/2a953932-f23c-4556-a737-a77bdb34e561)
+
+**Разрешение конфликта**
+Когда я возвращаюсь в main ветку и хочу слить изменения, как и ожидается, возникает конфликт. 
+```bash
+git checkout main
+git pull origin main
+git merge feature-login
+```
+![image](https://github.com/user-attachments/assets/983a766c-5662-40bb-9aa0-7de57858b890)
 
