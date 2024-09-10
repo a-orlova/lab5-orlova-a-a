@@ -100,5 +100,14 @@ git push origin feature-login
 ![image](https://github.com/user-attachments/assets/9de4b96f-cc52-4b07-ae35-0ca0ec414490)
 
 **Работа с удаленным репозиторием**
-1) 
+Переключаюсь на основной ветку, далее с помощью nano вношу изменения - добавляю название и меняю введение книги, коммит изменения и отправка всего на гитхаб.
+```bash
+git checkout main
+nano README.md
+git add README.md
+git commit -m "Изменено название книги и введение"
+git push origin main
+```
+![image](https://github.com/user-attachments/assets/228ed71c-ff39-4328-9781-f5b40719b79a)
+
 
