@@ -75,11 +75,15 @@ git push origin main
 touch README.md
 nano README.md
 ```
+![image](https://github.com/user-attachments/assets/e3948e7d-7b50-4249-b724-68bb461bc4d7)
+
 2) В терминале создаю и переключаюсь на новую ветку feature-login:
 ```bash
 git checkout -b feature-login
 ```
 3) Вношу изменения в файл с помощью nano:
+
+![image](https://github.com/user-attachments/assets/4a4c4654-84fd-437f-9d7e-cd19b6cb9310)
 
 4) Добавляю файл для отслеживания изменений:
 ```bash
@@ -93,8 +97,7 @@ git commit -m "Добавлена глава 3: Вход в систему"
 ```bash
 git push origin feature-login
 ```
-![image](https://github.com/user-attachments/assets/f73b6457-5d6a-4683-a8dc-19cc4551561a)
-
+![image](https://github.com/user-attachments/assets/9de4b96f-cc52-4b07-ae35-0ca0ec414490)
 
 **Работа с удаленным репозиторием**
 1) 
