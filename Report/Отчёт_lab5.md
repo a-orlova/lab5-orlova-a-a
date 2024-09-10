@@ -65,6 +65,10 @@ git merge feature-branch
 ```bash
 git push origin main
 ```
+![image](https://github.com/user-attachments/assets/9148e6b6-661d-4d2f-be8d-3cb711e23fec)
+![image](https://github.com/user-attachments/assets/5d869a9b-0bbe-47fd-8a26-e935715c5b1d)
+
+
 7) Проверяю, что файл изменен верно, и все ветки слиты. Все верно!
 ![image](https://github.com/user-attachments/assets/d015ed15-c4d6-40da-a6b6-d9d027f856e9)
 ![image](https://github.com/user-attachments/assets/c6d2acd1-e20c-471b-9efc-6fd9628b3ceb)
