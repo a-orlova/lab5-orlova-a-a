@@ -194,4 +194,6 @@ exit 0
 
 5) Завершаю релиз, критической ошибки не выявлено, завершаю работу и отправляю на удаленный репозиторий.
 
-![image](https://github.com/user-attachments/assets/eeba0b8e-dc8a-4628-89dd-1267ddbab231)
+![image](https://github.com/user-attachments/assets/5742bc61-dd1a-46d6-ab88-4c3deeb02614)
+
+**Лабораторная работа выполнена!**
