@@ -71,20 +71,17 @@ git push origin main
 
 
 **Работа с ветками**
-1) Создаю новый текстовый файл README.md в терминале с помощью echo:
+1) Создаю новый текстовый файл README.md в терминале с помощью touch, а затем редактирую его в текстовом редакторе nano:
 ```bash
-echo "# Название книги\n\n## Глава 1: Введение\nЗдесь будет введение в тему книги.\n\n## Глава 2: Основы Git\nОсновные понятия и команды Git." > README.md
+touch README.md
+nano README.md
 ```
 2) В терминале создаю и переключаюсь на новую ветку feature-login:
 ```bash
 git checkout -b feature-login
 ```
-3) Вношу изменения в файл с помощью echo:
-```bash
-echo " " >> README.md
-echo "## Глава 3: Вход в систему" >> README.md
-echo "Раздел по новой функциональности входа в систему." >> README.md
-```
+3) Вношу изменения в файл с помощью nano:
+
 4) Добавляю файл для отслеживания изменений:
 ```bash
 git add README.md
@@ -101,6 +98,5 @@ git push origin feature-login
 
 
 **Работа с удаленным репозиторием**
-1) ![image](https://github.com/user-attachments/assets/eff4deab-4693-4402-92ca-71bd2df48252) изменения в мэйн
-![image](https://github.com/user-attachments/assets/2887a61e-464d-4c09-a1bf-3cfa72de5f78)  конфликты
+1) 
 
