@@ -65,8 +65,8 @@ git push origin main
 ![image](https://github.com/user-attachments/assets/5d869a9b-0bbe-47fd-8a26-e935715c5b1d)
 
 7) Проверяю, что файл изменен верно, и все ветки слиты. Все верно!
-![image](https://github.com/user-attachments/assets/d015ed15-c4d6-40da-a6b6-d9d027f856e9)
-![image](https://github.com/user-attachments/assets/c6d2acd1-e20c-471b-9efc-6fd9628b3ceb)
+![image](https://github.com/user-attachments/assets/55a643eb-0b82-4f5d-99b6-e9776e156357)
+
 
 
 **Работа с ветками**
